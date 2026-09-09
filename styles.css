@@ -327,3 +327,17 @@ footer.site p { margin: 0.35rem 0; }
   nav.top { gap: 0.25rem 0.75rem; }
   .day-nav { flex-direction: column; gap: 0.65rem; }
 }
+
+.photo-slot .frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 36rem;
+  object-fit: contain;
+  background: #111;
+}
+.photo-slot .frame:has(img) {
+  min-height: 0;
+  padding: 0;
+  background: #111;
+}
