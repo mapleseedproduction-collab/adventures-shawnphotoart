@@ -635,3 +635,21 @@ footer.site p { margin: 0.35rem 0; }
     grid-template-columns: 1fr;
   }
 }
+
+.art-box img {
+  display: block;
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  margin: 0 0 0.75rem;
+  border-radius: 2px;
+}
+.art-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1rem 0 1.5rem;
+}
+.art-grid .art-box {
+  margin: 0;
+}
